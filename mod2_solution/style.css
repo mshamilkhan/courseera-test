@@ -1,0 +1,299 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (min-width: 992px) {
+
+
+    .menu {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .container h1 {
+        font-size: 3vh;
+    }
+
+    .container {
+        padding: 50px;
+        /* margin: 50px; */
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        background-color: beige;
+        color: black;
+        height: 40%;
+        border: 2px solid black;
+        display: flex;
+    }
+
+    .leftbox {
+        background-color: grey;
+        width: 20%;
+        margin: 50px;
+        border: 1px solid black;
+    }
+
+    .leftbox p {
+        padding-top: 30px;
+        margin: 20px;
+
+    }
+
+    .floatleft {
+        float: right;
+        padding-top: -50px;
+        background-color: pink;
+        color: black;
+        width: 60%;
+        display: block;
+        border: 1px solid black;
+    }
+
+    .rightbox {
+        background-color: grey;
+        width: 20%;
+        margin: 50px;
+        /* padding: 40px;
+    margin: 20px; */
+        border: 1px solid black;
+    }
+
+    .rightbox p {
+        padding-top: 30px;
+        margin: 20px;
+
+    }
+
+    .floatright {
+        float: right;
+        padding-top: -50px;
+        background-color: red;
+        color: white;
+        width: 60%;
+        display: block;
+        border: 1px solid black;
+    }
+
+    .lastbox {
+        background-color: grey;
+        width: 20%;
+        margin: 50px;
+        /* padding: 50px;
+    margin: 20px; */
+        border: 1px solid black;
+    }
+
+    .lastbox p {
+        padding-top: 30px;
+        margin: 20px;
+
+    }
+
+    .floatlast {
+        float: right;
+        padding-top: -50px;
+        background-color: yellow;
+        color: black;
+        width: 60%;
+        display: block;
+        border: 1px solid black;
+    }
+}
+
+
+
+
+/* TABLET VIEW ---------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .container {
+        padding: 50px;
+        text-align: center;
+        width: 100%;
+        background-color: beige;
+        color: black;
+        height: 40%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .leftbox {
+        background-color: grey;
+        width: 40%;
+        margin: 50px;
+        margin-left: -5px;
+        border: 1px solid black;
+        display: inline-block;
+
+    }
+
+    .leftbox p {
+        padding-top: 30px;
+        margin: 20px;
+
+    }
+
+    .floatleft {
+        float: right;
+        padding-top: -50px;
+        background-color: pink;
+        color: black;
+        width: 40%;
+        display: block;
+        border: 1px solid black;
+    }
+
+    .rightbox {
+        background-color: grey;
+        width: 40%;
+        position: absolute;
+        left: 57%;
+        top: 21%;
+        border: 1px solid black;
+        display: inline-block;
+    }
+
+    .rightbox p {
+        padding-top: 30px;
+        margin: 20px;
+
+    }
+
+    .floatright {
+        float: right;
+        padding-top: -50px;
+        background-color: red;
+        color: white;
+        width: 40%;
+        display: block;
+        border: 1px solid black;
+    }
+
+    .lastbox {
+        background-color: grey;
+        width: 90%;
+        /* margin: 50px; */
+        position: relative;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+    .lastbox p {
+        padding-top: 30px;
+        margin: 20px;
+
+    }
+
+    .floatlast {
+        float: right;
+        padding-top: -50px;
+        background-color: yellow;
+        color: black;
+        width: 40%;
+        display: block;
+        border: 1px solid black;
+    }
+}
+
+
+/* MOBILE VIEW------------------------- */
+
+@media (max-width: 767px) {
+    .menu {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .container {
+        padding: 50px;
+        text-align: center;
+        width: 100%;
+        background-color: beige;
+        color: black;
+        height: 40%;
+        border: 2px solid black;
+
+    }
+
+    .leftbox {
+        background-color: grey;
+        width: 80%;
+        margin: 30px;
+        margin-left: -5px;
+        border: 1px solid black;
+    }
+
+    .leftbox p {
+        padding-top: 30px;
+        margin: 20px;
+
+    }
+
+    .floatleft {
+        float: right;
+        padding-top: -50px;
+        background-color: pink;
+        color: black;
+        width: 40%;
+        display: block;
+        border: 1px solid black;
+    }
+
+    .rightbox {
+        background-color: grey;
+        width: 80%;
+        margin: 30px;
+        margin-left: -5px;
+        border: 1px solid black;
+    }
+
+    .rightbox p {
+        padding-top: 30px;
+        margin: 20px;
+
+    }
+
+    .floatright {
+        float: right;
+        padding-top: -50px;
+        background-color: red;
+        color: white;
+        width: 40%;
+        display: block;
+        border: 1px solid black;
+    }
+
+    .lastbox {
+        background-color: grey;
+        width: 80%;
+        margin: 30px;
+        margin-left: -5px;
+        border: 1px solid black;
+    }
+
+    .lastbox p {
+        padding-top: 30px;
+        margin: 20px;
+
+    }
+
+    .floatlast {
+        float: right;
+        padding-top: -50px;
+        background-color: yellow;
+        color: black;
+        width: 40%;
+        display: block;
+        border: 1px solid black;
+    }
+}
